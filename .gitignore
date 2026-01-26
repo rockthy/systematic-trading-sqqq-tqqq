@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Generated backtest results
+backtest_results.png
+backtest_results.csv
+
 # C extensions
 *.so
 
