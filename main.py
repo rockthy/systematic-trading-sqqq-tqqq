@@ -175,6 +175,6 @@ def create_visualizations(all_results, tickers):
 
 
 if __name__ == "__main__":
-    # You can easily add more tickers here in the future
-    target_tickers = ["SQQQ", "TQQQ", "UNH"]
+    # Tickers: SQQQ, TQQQ, UNH, META (Meta Platforms), NVO (Novo Nordisk)
+    target_tickers = ["SQQQ", "TQQQ", "UNH", "META", "NVO"]
     run_multi_ticker_backtest(target_tickers)
